@@ -13,7 +13,9 @@ SECRET_KEY = 'hirry(o)kc-l_5$1so*!$*2efz3w(duw^@0_2!)88dr$^w+o$o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '192.168.0.110'
+]
 
 
 # Application definition
@@ -100,7 +102,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Dacca'
 
 USE_I18N = True
 

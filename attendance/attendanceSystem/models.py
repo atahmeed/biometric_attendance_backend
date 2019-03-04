@@ -18,7 +18,7 @@ class Attendance(models.Model):
         if not self.pk:
             Student.objects.filter(pk = self.roll_id).update(present = models.F('present')+1)
         super().save(*args,**kwargs)    
-
+        
     class Meta:
         unique_together = (('date','roll'),)
 
